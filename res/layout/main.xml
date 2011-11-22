@@ -2,17 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/background"
     android:orientation="vertical" >
-	<Button  
-        android:id="@+id/on_btn"
-        android:layout_width="fill_parent" 
-        android:layout_height="wrap_content" 
-        android:text="Flash ON" />
 
-    <Button  
-        android:id="@+id/off_btn"
-        android:layout_width="fill_parent" 
-        android:layout_height="wrap_content" 
-        android:text="Flash OFF" />
+	<Button
+	    android:id="@+id/on_btn"
+	    android:layout_width="148dp"
+	    android:layout_height="142dp"
+	    android:background="@drawable/button_on"
+	 />
+	<Button
+	    android:id="@+id/off_btn"
+	    android:layout_width="148dp"
+	    android:layout_height="142dp"
+	    android:background="@drawable/button_off"
+	    android:state_enabled="false"
+	 />
 
 </LinearLayout>
